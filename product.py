@@ -13,4 +13,6 @@ class Template:
     @classmethod
     def __setup__(cls):
         super(Template, cls).__setup__()
-        cls.type.selection.remove(('goods', 'Goods'))
+        selection = ('goods', 'Goods')
+        if selection in cls.type.selection:
+            cls.type.selection.remove(selection)
