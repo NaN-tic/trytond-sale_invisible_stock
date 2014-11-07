@@ -7,30 +7,20 @@ import os
 import sys
 import trytond.tests.test_tryton
 import unittest
-DIR = os.path.abspath(os.path.normpath(os.path.join(__file__,
-    '..', '..', '..', '..', '..', 'trytond')))
-if os.path.isdir(DIR):
-    sys.path.insert(0, os.path.dirname(DIR))
 
 
 class SaleInvisibleStockTestCase(unittest.TestCase):
-    '''
-    Test Sale Invisible Stock module.
-    '''
+    'Test Sale Invisible Stock module'
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('sale_invisible_stock')
 
     def test0005views(self):
-        '''
-        Test views.
-        '''
+        'Test views'
         test_view('sale_invisible_stock')
 
     def test0006depends(self):
-        '''
-        Test depends.
-        '''
+        'Test depends'
         test_depends()
 
 
