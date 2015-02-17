@@ -5,4 +5,12 @@ copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook/page[@id=&quot;shipments&quot;]"
             position="replace"/>
+    <xpath expr="/form/notebook/page[@id=&quot;sale&quot;]/group[@id=&quot;states&quot;]/label[@name=&quot;shipment_state&quot;]"
+            position="replace_attributes">
+        <label name="shipment_state" invisible="1"/>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id=&quot;other&quot;]/label[@name=&quot;shipment_method&quot;]"
+            position="replace_attributes">
+        <label name="shipment_method" invisible="1"/>
+    </xpath>
 </data>
