@@ -3,7 +3,7 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/notebook/page[@id=&quot;shipments&quot;]"
+    <xpath expr="/form/notebook/page[@name=&quot;shipments&quot;]"
             position="replace"/>
 
     <xpath expr="/form/notebook/page[@id=&quot;sale&quot;]/group[@id=&quot;states&quot;]/label[@name=&quot;shipment_state&quot;]"
