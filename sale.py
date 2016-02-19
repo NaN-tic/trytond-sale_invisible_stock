@@ -16,3 +16,10 @@ class Sale:
         cls.warehouse.invisible = True
         cls.shipment_state.invisible = True
         cls.shipment_method.invisible = True
+
+    @classmethod
+    def view_attributes(cls):
+        return super(Sale, cls).view_attributes() + [
+            ('//page[@name="shipments"]', 'states', {
+                    'invisible': True,
+                    })]
