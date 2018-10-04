@@ -6,8 +6,7 @@ from trytond.pool import PoolMeta
 __all__ = ['Template']
 
 
-class Template:
-    __metaclass__ = PoolMeta
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
 
     @classmethod

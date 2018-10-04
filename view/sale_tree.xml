@@ -3,12 +3,10 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/tree/field[@name=&quot;warehouse&quot;]"
-            position="replace">
+    <xpath expr="/tree/field[@name='warehouse']" position="replace">
         <field name="warehouse" tree_invisible="1"/>
     </xpath>
-    <xpath expr="/tree/field[@name=&quot;shipment_state&quot;]"
-            position="replace">
+    <xpath expr="/tree/field[@name='shipment_state']" position="replace">
         <field name="shipment_state" tree_invisible="1"/>
     </xpath>
 </data>

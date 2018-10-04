@@ -3,13 +3,8 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/notebook/page[@id=&quot;sale&quot;]/group[@id=&quot;states&quot;]/label[@name=&quot;shipment_state&quot;]"
-            position="replace"/>
-    <xpath expr="/form/notebook/page[@id=&quot;sale&quot;]/group[@id=&quot;states&quot;]/field[@name=&quot;shipment_state&quot;]"
-            position="replace"/>
-
-    <xpath expr="/form/notebook/page[@id=&quot;other&quot;]/label[@name=&quot;shipment_method&quot;]"
-            position="replace"/>
-    <xpath expr="/form/notebook/page[@id=&quot;other&quot;]/field[@name=&quot;shipment_method&quot;]"
-            position="replace"/>
+    <xpath expr="/form/notebook/page[@id='sale']/group[@id='states']/label[@name='shipment_state']" position="replace"/>
+    <xpath expr="/form/notebook/page[@id='sale']/group[@id='states']/field[@name='shipment_state']" position="replace"/>
+    <xpath expr="/form/notebook/page[@id='other']/label[@name='shipment_method']" position="replace"/>
+    <xpath expr="/form/notebook/page[@id='other']/field[@name='shipment_method']" position="replace"/>
 </data>
